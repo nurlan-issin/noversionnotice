@@ -1,0 +1,26 @@
+{
+    "name": "nissin/noversionnotice",
+    "type": "phpbb-extension",
+    "description": "This extension disable show phpBB version update notice in ACP.",
+    "homepage": "http://nurlan.info",
+    "version": "1.0.0",
+    "time": "2017-06-15",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Nurlan Issin",
+            "email": "nurlan@nurlan.info",
+            "homepage": "",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Disable phpBB version update notice",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+services:
+    nissin.noversionnotice.listener:
+        class: nissin\noversionnotice\event\main_listener
+        arguments:
+            - @template
+        tags:
+            - { name: event.listener }
